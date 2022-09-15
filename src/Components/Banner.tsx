@@ -9,7 +9,7 @@ export default class Banner extends Component<Props, State> {
 
   render() {
     return (
-      <section className="mt-28 ">
+      <section className=" mt-0 md:mt-28  ">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2  mt-16 gap-6  md:gap-4  ">
             <article>

@@ -58,7 +58,7 @@ export default class Header extends Component<Props, State> {
                     <li>
                       <a
                         href={item.link}
-                        className="block capitalize py-2 pr-4 pl-3 text-white hover:bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                        className="block capitalize py-2 pr-4 pl-3 text-white  rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                       >
                         {item.title}
                       </a>

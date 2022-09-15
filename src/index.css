@@ -1,9 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply m-0 p-0 box-border;
+    @apply m-0 p-0 box-border font-open-sans;
+  }
+  ,
+  * {
+    @apply !font-open-sans;
+  }
+}
+@layer components {
+  .bg-one-class {
+    @apply odd:bg-white odd:text-black py-2 px-4  min-h-[250px] text-center even:border-[gold] even:border-2;
+  }
+  .icons {
+    @apply h-16 w-16 p-2 rounded-full  flex  justify-center odd:bg-[gold] odd:text-white even:text-black items-center;
+  }
+  ,
+  .iconscontianer {
+    @apply !flex bg-red-500  !justify-center mx-auto w-full;
   }
 }
